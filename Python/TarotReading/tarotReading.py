@@ -26,7 +26,9 @@ while True:
         
         elif user_input == 0:
             # if user input is equal to 0 then exit the program
+            print("Have the day you have!")
             break
+
 
     except ValueError:
         # value error exception for other inputs
