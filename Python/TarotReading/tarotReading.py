@@ -21,7 +21,7 @@ while True:
 
         elif user_input == 3:
             # if user input is equal to 3 then display three cards
-            list_tarot_random = random.sample(list_tarot_random, 3)
+            list_tarot_random = random.sample(list_tarot_card, 3)
             print(list_tarot_random)
         
         elif user_input == 0:
